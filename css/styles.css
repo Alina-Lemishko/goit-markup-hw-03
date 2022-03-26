@@ -36,6 +36,16 @@ body {
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -129,8 +139,11 @@ body {
 /* Hero */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
 }
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -184,11 +197,11 @@ body {
 .feature-list {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 94px;
 }
 
 .feature-list .item {
   width: 270px;
-  margin-top: 94px;
 }
 
 .item-list:not(:last-child) {
@@ -203,13 +216,15 @@ body {
 }
 
 .list .text {
+  margin-top: 10px;
+  margin-bottom: 0;
   color: var(--text-color);
 
   line-height: 1.71;
 }
 
 .section-title {
-  margin-top: 94px;
+  padding-top: 94px;
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -322,7 +337,30 @@ body {
 /* PORTFOLIO */
 /* Buttons */
 
+.portfolio-wrap {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* .bnt-container {
+  margin-top: 94px;
+} */
+
+.filter-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-items .item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .btn-filter {
+  padding: 6px 22px;
+  border: 0;
+  border-radius: 4px;
+
   color: var(--primary-text-color);
   background-color: var(--secondary-bg-color);
 
@@ -349,7 +387,29 @@ body {
 
 /* Heading Portfolio */
 
+.examples-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.examples-items .item {
+  width: 370px;
+}
+
+.examples-items .item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.examples-items .item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+
 .examples-items .heading {
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 24px;
+
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -364,6 +424,10 @@ body {
 }
 
 .examples-items .text {
+  margin-top: 4px;
+  margin-bottom: 20px;
+  margin-left: 24px;
+
   font-size: 16px;
   line-height: 1.88;
   font-weight: 400;
