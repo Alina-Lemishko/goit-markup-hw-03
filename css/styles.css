@@ -194,10 +194,13 @@ h6 {
   display: none;
 }
 
+.features {
+  padding-top: 94px;
+}
+
 .feature-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 94px;
 }
 
 .feature-list .item {
@@ -223,8 +226,12 @@ h6 {
   line-height: 1.71;
 }
 
-.section-title {
+.occupation {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-title {
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -237,7 +244,6 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-  padding-bottom: 94px;
 }
 
 .img-list .item:not(:last-child) {
@@ -253,6 +259,8 @@ h6 {
 /* Members */
 
 .members-wrap {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--secondary-bg-color);
 }
 
@@ -260,7 +268,6 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
-  padding-bottom: 94px;
 }
 
 .member-items .item {
@@ -297,15 +304,12 @@ h6 {
 
 .page-footer {
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
 .logo.footer {
   color: var(--primary-white-color);
-}
-
-.footer-items {
-  padding-bottom: 60px;
 }
 
 .footer-items .address {
@@ -341,10 +345,6 @@ h6 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-/* .bnt-container {
-  margin-top: 94px;
-} */
 
 .filter-items {
   display: flex;
@@ -398,6 +398,8 @@ h6 {
 }
 
 .text-wrap {
+  padding: 20px 24px;
+
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
@@ -416,10 +418,6 @@ h6 {
 }
 
 .examples-items .heading {
-  margin-top: 20px;
-  margin-bottom: 0;
-  margin-left: 24px;
-
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -435,8 +433,6 @@ h6 {
 
 .examples-items .text {
   margin-top: 4px;
-  margin-bottom: 20px;
-  margin-left: 24px;
 
   font-size: 16px;
   line-height: 1.88;
