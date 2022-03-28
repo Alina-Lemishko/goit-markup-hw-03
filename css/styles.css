@@ -397,10 +397,10 @@ h6 {
   width: 370px;
 }
 
-/* .text-wrap {
+.text-wrap {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-} */
+}
 
 .examples-items .item:not(:nth-child(3n)) {
   margin-right: 30px;
