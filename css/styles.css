@@ -173,9 +173,15 @@ button {
   background-color: #2f303a;
 }
 
+.hero-title-wrap {
+  display: flex;
+  justify-content: center;
+}
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
+  max-width: 696px;
 
   color: var(--primary-white-color);
 
